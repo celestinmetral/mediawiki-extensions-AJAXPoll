@@ -85,6 +85,8 @@
 .ajaxpoll .ajaxpoll-misc {
 	margin-bottom: 10px;
 	color: #808080;
+  font-size: x-small;
+  font-style: italic;
 }
 
 .ajaxpoll .ajaxpoll-ajax {
@@ -95,8 +97,10 @@
 }
 
 .ajaxpoll .ajaxpoll-info {
-	margin-top: 20px;
+	margin-top: 5px;
 	color: #808080;
+  font-size: x-small;
+  font-style: italic;
 }
 
 .ajaxpoll .ajaxpoll-id-info {

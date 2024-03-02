@@ -424,7 +424,7 @@ During the last 48 hours, {$tab2->votes} votes have been given.";
 				&& !$showResultsBeforeVoting
 			) {
 				if ( $user->isAllowed( 'ajaxpoll-vote' ) ) {
-					$message .= '<br/>' . wfMessage( 'ajaxpoll-view-results-before-vote-permission' )->text();
+					#$message .= '<br/>' . wfMessage( 'ajaxpoll-view-results-before-vote-permission' )->text();
 				} else {
 					$message .= '<br/>' . wfMessage( 'ajaxpoll-view-results-permission' )->text();
 				}
