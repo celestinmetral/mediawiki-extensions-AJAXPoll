@@ -382,15 +382,6 @@ During the last 48 hours, {$tab2->votes} votes have been given.";
 				]
 			);
 
-			$ret .= Html::element( 'div',
-				[
-					'id' => 'ajaxpoll-ajax-' . $id,
-					'class' => 'ajaxpoll-ajax',
-					'style' => $style
-				],
-				$ajaxMessage
-			);
-
 			$ret .= Html::rawElement( 'div',
 				[ 'class' => 'ajaxpoll-question' ],
 				self::escapeContent( $lines[0] )
@@ -433,6 +424,15 @@ During the last 48 hours, {$tab2->votes} votes have been given.";
 			$ret .= Html::rawElement( 'div',
 				[ 'class' => 'ajaxpoll-misc' ],
 				$message
+			);
+
+			$ret .= Html::element( 'div',
+				[
+					'id' => 'ajaxpoll-ajax-' . $id,
+					'class' => 'ajaxpoll-ajax',
+					'style' => $style
+				],
+				$ajaxMessage
 			);
 
 			$ret .= Html::rawElement( 'form',
