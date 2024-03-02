@@ -27,14 +27,15 @@
 .ajaxpoll-answer-name>label>input {
 	margin-right: 5px;
 	vertical-align: baseline;
+	margin-left: 5px;
 }
 
 .ajaxpoll .ajaxpoll-hover-vote {
-	background: #00f;
+	background: lightcoral;
 }
 
 .ajaxpoll .ajaxpoll-hover-revoke {
-	background: #ffd700;
+	background: lightgreen;
 }
 
 .ajaxpoll .ajaxpoll-answer-vote {
@@ -104,8 +105,8 @@
 .ajaxpoll .ajaxpoll-info {
 	margin-top: 5px;
 	color: #808080;
-  font-size: x-small;
-  font-style: italic;
+	font-size: x-small;
+	font-style: italic;
 }
 
 .ajaxpoll .ajaxpoll-id-info {

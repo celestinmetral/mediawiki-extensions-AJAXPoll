@@ -45,17 +45,17 @@ var setupEventHandlers = function () {
 		} );
 	} );
 
-	$( '.ajaxpoll-answer-name:not(.ajaxpoll-answer-name-revoke) label' ).on( 'mouseover', function () {
+	$( '.ajaxpoll-answer-name:not(.ajaxpoll-answer-name-revoke)' ).on( 'mouseover', function () {
 		$( this ).addClass( 'ajaxpoll-hover-vote' );
 	} );
-	$( '.ajaxpoll-answer-name:not(.ajaxpoll-answer-name-revoke) label' ).on( 'mouseout', function () {
+	$( '.ajaxpoll-answer-name:not(.ajaxpoll-answer-name-revoke)' ).on( 'mouseout', function () {
 		$( this ).removeClass( 'ajaxpoll-hover-vote' );
 	} );
 
-	$( '.ajaxpoll-answer-name-revoke label' ).on( 'mouseover', function () {
+	$( '.ajaxpoll-answer-name-revoke' ).on( 'mouseover', function () {
 		$( this ).addClass( 'ajaxpoll-hover-revoke' );
 	} );
-	$( '.ajaxpoll-answer-name-revoke label' ).on( 'mouseout', function () {
+	$( '.ajaxpoll-answer-name-revoke' ).on( 'mouseout', function () {
 		$( this ).removeClass( 'ajaxpoll-hover-revoke' );
 	} );
 };
