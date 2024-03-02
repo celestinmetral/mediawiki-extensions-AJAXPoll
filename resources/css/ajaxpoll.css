@@ -24,6 +24,11 @@
 	font-size: 0.9em;
 }
 
+.ajaxpoll-answer-name>label>input {
+	margin-right: 5px;
+	vertical-align: baseline;
+}
+
 .ajaxpoll .ajaxpoll-hover-vote {
 	background: #00f;
 }
